@@ -59,5 +59,17 @@ group :test do
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+gem 'jquery-rails'
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'popper_js', '~> 1.11.1'
 gem 'bootstrap', '4.0.0.alpha6'
+gem 'simple_form'
+gem 'devise'
+gem 'carrierwave', '~> 2.0'
+gem "mini_magick"
+gem 'carrierwave-aws'
+gem 'stripe'
+gem 'ranked-model'
+gem "figaro"
+gem 'jquery-ui-rails'
+gem "font-awesome-rails"
